@@ -1,0 +1,80 @@
+{
+  "name": "beidou-example-advanced",
+  "version": "2.2.1",
+  "description": "beidou example advanced",
+  "scripts": {
+    "start": "egg-scripts start --port=80 --framework=beidou-core --daemon --title=egg-server-showcase",
+    "debug": "beidou debug",
+    "stop": "beidou stop",
+    "dev": "beidou dev",
+    "build": "beidou build",
+    "build:node": "beidou build --target=node",
+    "lint": "eslint --fix --ext .jsx,.js app client config"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "copy-webpack-plugin": "^5.0.3",
+    "eslint": "^6.0.1",
+    "eslint-config-beidou": "^2.0.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-react": "^7.14.2",
+    "react-hot-loader": "^4.12.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "antd": "^3.20.2",
+    "axios": "^0.19.0",
+    "babel-plugin-import": "^1.12.0",
+    "babel-polyfill": "^6.26.0",
+    "beidou": "^2.2.1",
+    "beidou-cli": "^2.1.1",
+    "classnames": "^2.2.6",
+    "color": "^3.1.2",
+    "egg-scripts": "^2.11.0",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.14",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "rc-animate": "^2.9.1",
+    "rc-banner-anim": "^2.2.8",
+    "rc-queue-anim": "^1.6.12",
+    "rc-tween-one": "^2.4.1",
+    "react": "^16.8.6",
+    "react-animated-slider": "^1.1.4",
+    "react-burger-menu": "^2.6.10",
+    "react-dom": "^16.8.6",
+    "react-expand-collapse": "^0.2.0",
+    "react-multi-carousel": "^2.1.1",
+    "react-page-progress": "^1.1.0",
+    "react-redux": "^7.1.0",
+    "react-responsive": "^7.0.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scroll-progress-read": "^0.0.8",
+    "react-scrollbars-custom": "^4.0.16",
+    "react-slick": "^0.24.0",
+    "react-svg": "^10.0.11",
+    "read-more-react": "^1.0.9",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-saga": "^1.0.5",
+    "reqwest": "^2.0.5",
+    "styled-components": "^5.0.0-beta.8"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "browserslist": [
+    ">1%",
+    "last 4 versions",
+    "Firefox ESR",
+    "not ie < 9"
+  ],
+  "license": "MIT",
+  "gitHead": "d057e8d9250d80be9aa345380c90549aa40ae7c7",
+  "boilerplate": {
+    "name": "beidou-example-advanced",
+    "version": "2.2.1",
+    "description": "beidou example advanced"
+  }
+}
