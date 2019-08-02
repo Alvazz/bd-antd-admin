@@ -44,7 +44,6 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <Page loading={false}>
-
           <HeroSlider noBorder={noBorder} />
         </Page>
       </React.Fragment>
