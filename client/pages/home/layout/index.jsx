@@ -58,9 +58,9 @@ class Layout extends React.Component {
     const { children } = this.props;
     const { siderFolded, noBorder } = this.state;
 
-    // const { router } = this.context;
+    const { router } = this.context;
     // const { location } = router.history;
-    console.log('/home/layout router is ', this.context.router);
+    console.log('/home/layout router is ', router);
 
     return (
       <div className={cx('layout', { fold: siderFolded })} id="outerContainer">
